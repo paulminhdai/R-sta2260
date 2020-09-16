@@ -29,6 +29,9 @@ median(blood_rounded)
 propagation = c(0.733, 0.845, 0.867, 0.903, 0.924, 0.931, 0.971, 1.009, 1.036, 1.049, 1.096, 1.115, 1.137, 1.154, 1.234, 1.351)
 mean(propagation)
 median(propagation)
+summary(propagation)
+propagation1 = c(0.733, 0.845, 0.867, 0.903, 0.924, 0.931, 0.971, 1.009, 1.036, 1.049, 1.096, 1.115, 1.137, 1.154, 1.234,1.036)
+summary(propagation1)
 
 # question 5
 crash = c('F', 'F', 'S', 'F', 'S', 'S', 'S', 'S', 'F', 'F')

@@ -47,7 +47,55 @@ choose(13, 2) * choose(12,5)
 (choose(7,2)*choose(9,1)*choose(8,0) + choose(7,2)*choose(9,0)*choose(8,1)) / choose(24,3)
 (choose(8,3)+choose(9,3)+choose(7,3))/choose(24,3)
 (choose(8,1)*choose(9,1)*choose(7,1))/choose(24,3)
-(choose(7,1))/choose(24,6)
+
+# ????????????
+(choose(7,1)*choose(8,4)*choose(9,0) + choose(7,1)*choose(8,3)*choose(9,1) + choose(7,1)*choose(8,2)*choose(9,2) + choose(7,1)*choose(8,1)*choose(9,3)+ choose(7,1)*choose(8,0)*choose(9,4))
+
+(choose(24,8)*choose())(choose(8,4)*choose(9,0) + choose(8,3)*choose(9,1) + choose(8,2)*choose(9,2) + choose(8,1)*choose(9,3)+ choose(8,0)*choose(9,4))
+
+
+# question 6
+# Blood Group
+#                  O	    A	    B	   AB
+#               1 0.082	0.104	0.011	0.004   0.201
+# Ethnic Group	2	0.137	0.141	0.018	0.003   0.299
+#               3	0.215	0.202	0.063	0.020   0.500
+#                 0.434 0.447 0.092 0.027
+# a
+.104+.141+.202
+.215+.202+.063+.020
+.202
+# b
+.202/.5
+.202/.447
+# c all group 1 - B / (0+A+AB)
+(.201-.011)/(.434+.447+.027)
+
+
+
+
+# question 8
+# P(A1) = 0.10      P(A2) = 0.08     P(A3) = 0.05
+# P(A1 ∪ A2) = 0.12      P(A1 ∪ A3) = 0.12
+# P(A2 ∪ A3) = 0.11      P(A1 ∩ A2 ∩ A3) = 0.01
+# P(A1 ∩ A2) = 0.06     P(A1 ∩ A3) = 0.03    P(A2 ∩ A3) = 0.02
+# a/ P(A1 ∩ A2)/P(A1)
+0.06/0.1
+# b/ P(A1 ∩ A2 ∩ A3)/P(A1)
+0.01/0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
